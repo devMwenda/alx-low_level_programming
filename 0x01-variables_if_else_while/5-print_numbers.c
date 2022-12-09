@@ -8,9 +8,11 @@ int main(void)
 
 	int num;
 
-	for (num = 0; num <= 9; num++)
+	num = 48;
+
+	for (num = 48; num <= 57; num++)
 	{
-		printf("%d\\n", num);
+		putchar(num);
 	}
 	return (0);
 }
