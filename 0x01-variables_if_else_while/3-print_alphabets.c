@@ -11,13 +11,15 @@ int main(void)
 
 	char uppcse;
 
-	for (lwrcse = 'a'; lwrcse <= 'z'; lwrcse++)
-		for (uppcse = 'A'; uppcse <= 'Z'; uppcse++)
-		{{
-			 putchar(lwrcse);
-			 putchar(uppcse);
+		for (lwrcse = 'a'; lwrcse <= 'z'; lwrcse++)
+		{
+			putchar(lwrcse);
+		}
 
-		}}
+			for (uppcse = 'A'; uppcse <= 'Z'; uppcse++)
+			{
+				putchar(uppcse);
+			}
 	putchar('\n');
 	return (0);
 }
