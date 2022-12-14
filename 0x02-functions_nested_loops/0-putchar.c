@@ -1,9 +1,9 @@
-#include "main.h"
+#include <main.h>
 #include <stdio.h>
 /**
  *main - entry point
  *_putchar - writes character c to stdout
- * Return: 2 on success
+ * Return: 0 on success
 */
 int main(void)
 {
@@ -16,5 +16,5 @@ int main(void)
 	}
 
 
-	return (2);
+	return (0);
 }
