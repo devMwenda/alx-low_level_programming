@@ -1,19 +1,19 @@
 #include "main.h"
 /**
  * _abs - computes absolute value of an integer
- * @int: number to compute
+ * @r: number to compute
  *Return: Always 0
 */
-int _abs(int)
+int _abs(int r)
 {
-	if (int < 0)
+	if (r < 0)
 	{
-		return (-int);
+		return (-r);
 
 	}
 	else
 	{
-		return (int);
+		return (r);
 	}
 	return (0);
 }
