@@ -3,7 +3,7 @@
 /**
  *main - entry point
  *_putchar - writes character c to stdout
- * Return: 1 on success
+ * Return: 0 on success
 */
 int main(void)
 {
@@ -16,5 +16,5 @@ int main(void)
 	}
 
 
-	return (1);
+	return (0);
 }
