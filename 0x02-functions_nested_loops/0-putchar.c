@@ -5,7 +5,7 @@
  *@c: character to print
  * Return: 0 on success
 */
-int _putchar(char c)
+int _putchar(c)
 {
 
 	char c[8] = "_putchar";
