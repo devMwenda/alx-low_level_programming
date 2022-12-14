@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ *main - entry point
  *_putchar - writes character c to stdout
- *@c: character to print
  * Return: 0 on success
 */
-int _putchar(char c)
+int main(void)
 {
 	char c[8] = "_putchar";
 	int i;
