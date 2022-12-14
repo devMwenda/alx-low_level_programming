@@ -3,17 +3,18 @@
 /**
  *main - entry point
  *_putchar - writes character c to stdout
- * Return: 0 on success
+ * Return: 1 on success
 */
 int main(void)
 {
-	char *c = "_putchar";
+	char c[8] = "_putchar";
+	int i:
 
-	while (*c)
+	for (i = 0; i < 9; i++)
 	{
-		_putchar(*c);
+		_putchar(c[i]);
 	}
 
 
-	return (0);
+	return (1);
 }
