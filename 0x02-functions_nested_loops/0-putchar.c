@@ -5,10 +5,9 @@
  *@c: character to print
  * Return: 0 on success
 */
-int _putchar(c)
+int _putchar(char c)
 {
-
-	char c[8] = "_putchar";
+	c[8] = "_putchar";
 	int i;
 
 	for (i = 0; i < 9; i++)
