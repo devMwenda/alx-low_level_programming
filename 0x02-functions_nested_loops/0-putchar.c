@@ -3,7 +3,7 @@
 /**
  *main - entry point
  *_putchar - writes character c to stdout
- * Return: 1 on success
+ * Return: 0 on success
 */
 int main(void)
 {
@@ -12,9 +12,9 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 	{
-		_putchar(c[i]);
+		_putchar(c[i]'\n');
 	}
 
 
-	return (1);
+	return (0);
 }
