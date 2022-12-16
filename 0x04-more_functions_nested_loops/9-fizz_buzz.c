@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * main - entry point
+ * Return: Always 0
 */
 int main(void)
 {
@@ -18,6 +19,6 @@ int main(void)
 		else
 			printf("%d ", x);
 	}
-	printf('\n');
-
+	putchar('\n');
+	return (0);
 }
