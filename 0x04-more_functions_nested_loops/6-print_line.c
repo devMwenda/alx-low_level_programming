@@ -5,15 +5,17 @@
 */
 void print_line(int n)
 {
-	for (n = 0; n <= 9; n++)
+	int x;
+
+	if (n <= 0)
 	{
-		if (n < 0 || n == 0)
+		_putchar('\n');
+	}
+	else
+	{
+		for (x = 0; x < n; x++)
 		{
-			_putchar('\n');
-		}
-		else
-		{
-			_putchar('_');
+			_putchar(95);
 		}
 		_putchar('\n');
 	}
