@@ -20,6 +20,6 @@ int main(void)
 			printf("%d ", x);
 
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
