@@ -5,9 +5,16 @@
 */
 void print_rev(char *s)
 {
-	for (*s == '\0'; *s >= 0; s--)
+	int x = 0;
+
+	while (s[x] != '\0')
 	{
-		_putchar(*s);
+		x++;
+	}
+
+	for (x -= 1; x >= 0; x--)
+	{
+		_putchar(s[x]);
 	}
 
 	_putchar('\n');
